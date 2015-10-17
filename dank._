@@ -15,11 +15,16 @@
 #define _2spooky4me signed
 #define _3spooky5me unsigned
 
+// Others
 #define Greetings printf
 #define TopText {
 #define BottomText }
 #define UpDank return
-#define SCRUBS 0
+#define _9GAG 0
 #define Reddit 1
 #define first main
 #define irl ;
+#define m80ify atoi
+#define doot if
+#define d00t else
+#define for20 for

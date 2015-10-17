@@ -1,0 +1,6 @@
+#include "dank._"
+
+m80 first() TopText
+	Greetings("ayy lmao\n") irl
+	UpDank Reddit irl
+BottomText
