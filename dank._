@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <math.h>
+
+// Types
+#define m8 char
+#define m80 int
+#define m9 short
+#define m90 long
+#define m80s_kids float
+#define m90s_kids double
+
+// Signs
+#define _2spooky4me signed
+#define _3spooky5me unsigned
+
+#define Greetings printf
+#define TopText {
+#define BottomText }
+#define UpDank return
+#define SCRUBS 0
+#define Reddit 1
+#define first main
+#define irl ;
