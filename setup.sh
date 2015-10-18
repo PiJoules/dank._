@@ -10,7 +10,7 @@ dankify () {
 		args=${@:2} # All arguments starting with the third one
 		cp $pro $casual
 
-		gcc $casual -lm -o $player_name.dank
+		gcc -std=c99 $casual -lm -o $player_name.dank
 		./$outplaid $args
 
 		rm $casual

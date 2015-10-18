@@ -28,3 +28,4 @@
 #define doot if
 #define d00t else
 #define for20 for
+#define procure_meme(X,Y) (X) = (Y)

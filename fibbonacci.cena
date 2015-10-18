@@ -1,0 +1,35 @@
+#include "dank._"
+
+m80 fabrecur(m80) irl
+
+m80 first(m80 argc, m8* argv[]) TopText
+    doot (argc != 2) TopText
+        Greetings("Usage: first argument should be an integer arguement\n") irl
+        UpDank Reddit irl
+    BottomText
+    
+     
+    doot(!m80ify(argv[1])) TopText
+        Greetings("Usage: %s should be integer\n",argv[1]) irl
+        UpDank Reddit irl
+    BottomText
+    
+    for (m80 i=0 irl i < m80ify(argv[1]) irl i++) TopText
+        Greetings("%d ", fabrecur(i)) irl
+    BottomText
+    Greetings("\n") irl
+    UpDank _9GAG irl
+BottomText
+
+
+m80 fabrecur(m80 n) TopText
+    doot (n == 0)TopText
+        UpDank _9GAG irl
+    BottomText 
+    doot (n == 1)TopText
+        UpDank Reddit irl
+    BottomText
+    d00t TopText
+        UpDank fabrecur(n-1) + fabrecur(n-2) irl
+    BottomText
+BottomText 
